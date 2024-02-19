@@ -1,10 +1,8 @@
 ---
-permalink: /blog/
+permalink: /blog
 title: "Blog"
 author_profile: true
-# redirect_from: 
-#   - /blog/
-#   - /blog.html
+layout: default
 ---
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
