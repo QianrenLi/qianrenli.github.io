@@ -2,6 +2,7 @@
 permalink: /blog/
 title: "Blog"
 author_profile: true
+layout: archive
 # redirect_from: 
 #   - /blog/
 #   - /blog.html
