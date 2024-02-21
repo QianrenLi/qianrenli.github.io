@@ -3,7 +3,7 @@ title: "Stochastic Bandit"
 author_profile: false
 layout: default
 # date: 2024-02-21
-permalink: /temp/2024/02/21/Stochastic-Bandit
+permalink: /blogs/2024/02/21/Stochastic-Bandit
 ---
 
 # Stochastic Bandit

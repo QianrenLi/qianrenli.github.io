@@ -65,6 +65,12 @@ Some examples:
 1. If you change the source code of the website, the livereload server will automatically refresh.
 1. When you finish the modification of your homepage, `commit` your changings and `push` to your remote REPO using `git` command.
 
+### Window support
+1. Add `gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]` to your `Gemfile`
+1. Add `bundle add webrick` to your `Gemfile` 
+1. Run `bundle install` to fix the error `tzinfo-data not found`.
+1. Run `bundle exec jekyll serve` to start Jekyll livereload server.
+
 # Acknowledges
 
 - AcadHomepage incorporates Font Awesome, which is distributed under the terms of the SIL OFL 1.1 and MIT License.

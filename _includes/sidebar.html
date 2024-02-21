@@ -1,8 +1,10 @@
+{% include base_path %}
 {% if page.author_profile or layout.author_profile or page.sidebar %}
   <div class="sidebar sticky">
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
   {% if page.sidebar %}
     {% for s in page.sidebar %}
+      <p>Image URL: {{ s.image }}</p>
       {% if s.image %}
         <img src= "{{ s.image }}" alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
       {% endif %}
