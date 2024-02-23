@@ -19,7 +19,25 @@
 .page {
   @include breakpoint($large) {
     @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
+    @include prefix(1 of 12);
+    @include suffix(0 of 12);
+  }
+
+  .page__inner-wrap {
+    @include full();
+
+    .page__content,
+    .page__meta,
+    .page__share {
+      @include full();
+    }
+  }
+}
+
+.page__archive {
+  @include breakpoint($large) {
+    @include span(10 of 12 center);
+    @include prefix(1 of 12);
     @include suffix(0 of 12);
   }
 

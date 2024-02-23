@@ -1,7 +1,7 @@
 ---
 title: "Stochastic Bandit"
 author_profile: false
-layout: default
+layout: archive
 # date: 2024-02-21
 permalink: /blogs/2023/11/1/Stochastic-Bandit
 ---
