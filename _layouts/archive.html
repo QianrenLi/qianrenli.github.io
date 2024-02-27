@@ -11,7 +11,7 @@ layout: compress
   </head>
 
   <body>
-
+    
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
@@ -26,9 +26,12 @@ layout: compress
           </section>
         </div>
       </article>
+      <article class="page__archive">
+        {% include utterances.html %}
+      </article>
+
     </div>
-
     {% include scripts.html %}
-
+    
   </body>
 </html>
