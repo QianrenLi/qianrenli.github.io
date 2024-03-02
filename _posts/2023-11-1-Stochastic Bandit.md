@@ -2,6 +2,8 @@
 title: "Stochastic Bandit"
 author_profile: false
 layout: archive
+tags:
+    - bandit
 # date: 2024-02-21
 permalink: /blogs/2023/11/1/Stochastic-Bandit
 ---
