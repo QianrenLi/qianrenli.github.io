@@ -1,8 +1,17 @@
+---
+title: "Latex Writing"
+author_profile: false
+layout: archive
+tags:
+    - latex
+# date: 2024-02-21
+permalink: /blogs/2024/3/4/Latex-Writing
+---
 
 
 # Equation
 + Multiline equation with single number -- use `split` environment
-    ```latex
+    ```tex
     \begin{align}
         \label{eq:bellman}
         \begin{split}
@@ -10,17 +19,21 @@
         \end{split}
     \end{align}
     ```
-    ![alt text](./images/2024-3-4-Latex%20Writing-bellman.png)
-
+    <!-- ![alt text](/images/2024-3-4-Latex%20Writing-bellman.png) -->
+    <p align="center">
+        <img src="/images/2024-3-4-Latex%20Writing-bellman.png" alt="subscript example" style="max-width: 60%; height: auto;" />
+    </p>
 + Centering the subscript or superscript -- use `\limits`
     + First declare the operator, take `argmax` as an example
-        ```latex
+        ```tex
         \DeclareMathOperator*{\argmax}{argmax}
         ```
     + Then apply the limits
-        ```latex
+        ```tex
         \begin{equation}
             \pi_{t} \in \argmax\limits_{\pi \in \Pi} \mathbb{E}\left[R_{t}(\pi)\right]
         \end{equation}
         ```
-        ![alt text](./images/2024-3-4-Latex%20Writing-policy.png)
+        <p align="center">
+            <img src="/images/2024-3-4-Latex%20Writing-policy.png" alt="subscript example" style="max-width: 30%; height: auto;" />
+        </p>
