@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Qianren Li"
-description              : "Working on the optimization in wireless communication."
+description              : "Enjoy building things and solving problems."
 repository               : "QianrenLi/qianrenli.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -127,6 +127,10 @@ defaults:
       layout: default
       author_profile: true
 
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:path/
 
 # Sass/SCSS
 sass:

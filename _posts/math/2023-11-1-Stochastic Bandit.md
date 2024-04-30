@@ -6,6 +6,7 @@ tags:
     - bandit
 # date: 2024-02-21
 permalink: /blogs/2023/11/1/Stochastic-Bandit
+excerpt: Introduction to Stochastic Bandit
 ---
 
 # Stochastic Bandit

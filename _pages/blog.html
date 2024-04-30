@@ -1,5 +1,5 @@
 ---
-permalink: /blog/
+permalink: /blogs/
 title: "Blog posts"
 author_profile: true
 ---
@@ -15,4 +15,8 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-
+<!-- By Tag -->
+<div style="margin-top:50px">
+  <h2><i class="fa fa-tags fa-fw"></i> More posts by tag:</h2>
+  {% include all_tags.html is_root=true %}
+</div>

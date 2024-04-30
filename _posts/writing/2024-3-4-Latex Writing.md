@@ -4,13 +4,16 @@ author_profile: false
 layout: archive
 tags:
     - latex
-# date: 2024-02-21
+    - writing
+date: 2024-02-21
 permalink: /blogs/2024/3/4/Latex-Writing
+excerpt: Latex equation writing about 1. Multiline Equation (split case) 2. \argmax
 ---
 
+# Equation #
 
-# Equation
 + Multiline equation with single number -- use `split` environment
+
     ```tex
     \begin{align}
         \label{eq:bellman}
@@ -25,15 +28,19 @@ permalink: /blogs/2024/3/4/Latex-Writing
     </p>
 + Centering the subscript or superscript -- use `\limits`
     + First declare the operator, take `argmax` as an example
+
         ```tex
         \DeclareMathOperator*{\argmax}{argmax}
         ```
+
     + Then apply the limits
+
         ```tex
         \begin{equation}
             \pi_{t} \in \argmax\limits_{\pi \in \Pi} \mathbb{E}\left[R_{t}(\pi)\right]
         \end{equation}
         ```
+
         <p align="center">
             <img src="/images/2024-3-4-Latex%20Writing-policy.png" alt="subscript example" style="max-width: 30%; height: auto;" />
         </p>

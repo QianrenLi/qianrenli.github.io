@@ -17,7 +17,6 @@ layout: compress
 
     <div id="main" role="main">
       <!-- {% include sidebar.html %} -->
-    
       <article class="page__archive" itemscope itemtype="http://schema.org/CreativeWork">
         {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
         <div class="page__inner-wrap">
@@ -25,13 +24,23 @@ layout: compress
             {{ content }}
           </section>
         </div>
+        <div class="page__inner-wrap">
+          <hr>
+          {% for tag in page.tags %}
+          <a href="/tag_index/#{{ tag | slugify }}" class="btn btn-outline-dark tag-btn">
+              <span class="fas fa-tag" aria-hidden="true"></span> {{ tag }}
+          </a>
+          {% endfor %}
+        </div>
+        {% unless page.no_utterance %}
+        <div class="page__inner-wrap">
+          {% include utterances.html %}
+        </div>
+        {% endunless %}
       </article>
-      <article class="page__archive">
-        {% include utterances.html %}
-      </article>
+
 
     </div>
     {% include scripts.html %}
-    
   </body>
 </html>
