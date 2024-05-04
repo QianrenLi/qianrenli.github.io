@@ -95,6 +95,29 @@
     margin-bottom: 5px
 }
 
+
+.copy-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px;
+    padding: 5px 10px; /* Adjust padding as needed */
+    font-size: 1.3em; /* Adjust font size as needed */
+    border: none;
+    cursor: pointer;
+}
+
+.copy-btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.copy-btn .fa {
+    margin-right: 5px;
+}
+
+
+
 .anchor-link {
     display: none;
 }

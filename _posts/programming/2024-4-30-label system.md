@@ -20,6 +20,7 @@ The creation of tag system motivated by the need to categorize and organize the 
 
 Display tag is simple, which takes loop and display each tag in the post front matter (even in text format):
 
+
 {% raw %} 
 
 ```html
