@@ -33,9 +33,10 @@ document.addEventListener('DOMContentLoaded', function () {
             wrapper.className = 'code-wrapper';
 
             const copyButton = document.createElement('button');
-            copyButton.className = 'btn btn-outline-dark copy-btn';
-            const icon = document.createElement('i');
-            icon.className = 'far fa-clipboard'; // Assuming you're using Font Awesome
+            copyButton.className = 'btn copy-btn';
+            const icon = document.createElement('span');
+            icon.className = 'fa fa-clipboard'; // Assuming you're using Font Awesome
+            icon.setAttribute('aria-hidden', 'true')
 
             copyButton.appendChild(icon);
 
