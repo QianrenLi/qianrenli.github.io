@@ -1,0 +1,311 @@
+---
+permalink: /ReinWiFi
+title: "Paper archive"
+author_profile: false
+layout: null
+no_utterance: true
+---
+{% include base_path %}
+
+{% assign arkiv_path = "https://arxiv.org/abs/2405.03526" %}
+{% assign pdf_path = "https://arxiv.org/pdf/2405.03526" %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+
+
+  <title>ReinWiFi: A Reinforcement-Learning-Based Framework for the Application-Layer QoS Optimization of WiFi Networks
+  </title>
+
+  <link rel="stylesheet" href="{{base_path}}/assets/paper_archive/css/bulma.min.css">
+  <link rel="stylesheet" href="{{base_path}}/assets/paper_archive/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="{{base_path}}/assets/paper_archive/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="{{base_path}}/assets/paper_archive/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="{{base_path}}/assets/paper_archive/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="{{base_path}}/assets/paper_archive/js/fontawesome.all.min.js"></script>
+  <script src="{{base_path}}/assets/paper_archive/js/bulma-carousel.min.js"></script>
+  <script src="{{base_path}}/assets/paper_archive/js/bulma-slider.min.js"></script>
+  <script src="{{base_path}}/assets/paper_archive/js/index.js"></script>
+</head>
+
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">ReinWiFi: A Reinforcement-Learning-Based Framework for the
+              Application-Layer QoS Optimization of WiFi Networks</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://qianrenli.github.io/" target="_blank">Qianren Li</a>,</span>
+              <span class="author-block">
+                Bojie Lv,
+              </span>
+              <span class="author-block">
+                <a href="https://resume.sudofree.xyz/" target="_blank">Yuncong Hong,</a> 
+              </span>
+              <span class="author-block">
+                and <a href="http://lasso.eee.sustech.edu.cn/" target="_blank">Rui Wang*</a> 
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">Southern University of Technology and Science<br></span>
+              <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding author: Prof. Rui Wang (wang.r@sustech.edu.cn)</small></span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- Arxiv PDF link -->
+                <span class="link-block">
+                  <a href="{{pdf_path}}" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+
+                <!-- Supplementary PDF link -->
+                <!-- <span class="link-block">
+                  <a href="{{base_path}}/assets/pdfs{{page.url}}supplementary_material.pdf" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Supplementary</span>
+                  </a>
+                </span> -->
+
+                <!-- Github link -->
+                <span class="link-block">
+                  <a href="https://github.com/qianrenli/ReinWiFi" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="{{arkiv_path}}" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Teaser video-->
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <video poster="" id="tree" autoplay controls muted loop height="100%">
+          <!-- Your video here -->
+          <source src="{{base_path}}/assets/videos{{page.url}}/performance.mp4" type="video/mp4">
+        </video>
+        <h2 class="subtitle has-text-centered">
+        This is an example of the proposed ReinWiFi framework's performance. The left graph visualizes the transmission latency, while the right plots the change in RTT and actions. Each UE initially follows the standard EDCA, with the scheduling parameters rate and CW denoted as 0. The proposed ReinWiFi framework is activated to optimize the QoS in the vision of a significant RTT increase.
+        </h2>
+      </div>
+    </div>
+  </section>
+  <!-- End teaser video -->
+
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              In this paper, a reinforcement-learning-based scheduling framework is proposed and implemented to optimize the application-layer quality-of-service (QoS) of a practical wireless local area network (WLAN) suffering from unknown interference. Particularly, application-layer tasks of file delivery and delay-sensitive communication, e.g., screen projection, in a WLAN with enhanced distributed channel access (EDCA) mechanism, are jointly scheduled by adjusting the contention window sizes and application-layer throughput limitation, such that their QoS, including the throughput of file delivery and the round trip time of the delay-sensitive communication, can be optimized. Due to the unknown interference and vendor-dependent implementation of the network interface card, the relation between the scheduling policy and the system QoS is unknown. Hence, a reinforcement learning method is proposed, in which a novel Q-network is trained to map from the historical scheduling parameters and QoS observations to the current scheduling action. It is demonstrated on a testbed that the proposed framework can achieve a significantly better QoS than the conventional EDCA mechanism.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End paper abstract -->
+
+
+  <!-- Image carousel -->
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container">
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item">
+            <!-- Your image here -->
+            <img src="{{base_path}}/images{{page.url}}/system.png" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              Testbed and network structure of the proposed ReinWiFi framework.
+            </h2>
+          </div>
+          <div class="item has-text-centered">
+            <!-- Your image here -->
+            <img src="{{base_path}}/images{{page.url}}/cost_performance.png" width="800" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              Average cost where the traffic follows the same as dataset collection phase.
+            </h2>
+          </div>
+          <div class="item has-text-centered">
+            <!-- Your image here -->
+            <img src="{{base_path}}/images{{page.url}}/unseen_performance.png" width="800" alt="MY ALT TEXT" />
+
+            <h2 class="subtitle has-text-centered">
+              Average cost under unseen environment named as scenario 6 to 11.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End image carousel -->
+
+
+
+  <!-- Youtube video -->
+  <!-- <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container"> -->
+        <!-- Paper video. -->
+        <!-- <h2 class="title is-3">Video Presentation</h2>
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+
+            <div class="publication-video"> -->
+              <!-- Youtube embed code here -->
+              <!-- <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- End youtube video -->
+
+
+  <!-- Video carousel -->
+  <!-- <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title is-3">Another Carousel</h2>
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item item-video1">
+            <video poster="" id="video1" autoplay controls muted loop height="100%"> -->
+              <!-- Your video file here -->
+              <!-- <source src="{{base_path}}/assets/videos/carousel1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-video2">
+            <video poster="" id="video2" autoplay controls muted loop height="100%"> -->
+              <!-- Your video file here -->
+              <!-- <source src="{{base_path}}/assets/videos/carousel2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-video3">
+            <video poster="" id="video3" autoplay controls muted loop height="100%">\ -->
+              <!-- Your video file here -->
+              <!-- <source src="{{base_path}}/assets/videos/carousel3.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- End video carousel -->
+
+
+
+
+
+
+  <!-- Paper poster -->
+  <!-- <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title">Poster</h2>
+
+        <iframe src="{{base_path}}/assets/pdfs/sample.pdf" width="100%" height="550">
+        </iframe>
+
+      </div>
+    </div>
+  </section> -->
+  <!--End paper poster -->
+
+
+  <!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@misc{li2024reinwifi,
+        title={ReinWiFi: A Reinforcement-Learning-Based Framework for the Application-Layer QoS Optimization of WiFi Networks}, 
+        author={Qianren Li and Bojie Lv and Yuncong Hong and Rui Wang},
+        year={2024},
+        eprint={2405.03526},
+        archivePrefix={arXiv},
+        primaryClass={cs.NI}
+  }</code></pre>
+    </div>
+  </section>
+  <!--End BibTex citation -->
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+                target="_blank">Academic Project Page Template</a> which was adopted from the <a
+                href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+              You are free to borrow the of this website, we just ask that you link back to this page in the footer.
+              <br> This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Statcounter tracking code -->
+
+  <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+  <!-- End of Statcounter Code -->
+
+</body>
+
+</html>
