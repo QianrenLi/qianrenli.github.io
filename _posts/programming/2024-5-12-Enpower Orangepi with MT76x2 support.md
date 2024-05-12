@@ -23,13 +23,13 @@ In conclusion, the final solution is to use the MT76x2U driver by recompiling th
 Since there are two kinds of USB wifi cards available in my hand, one of RTL8812AU and the other of MT7612U, the choice of the wireless card is limited to these two.
 Although the drivers of RTL8812AU and MT7612U are both SoftMAC, they are maintained by different societies. Therefore, the installation of the driver is different.
 
-### RTL8812AU (Cannot run as USB3.0 mode) ###
+### RTL8812AU (~~Cannot run as USB3.0 mode~~) ###
 
-To use the RTL8812AU, the driver can be installed from the community repository (e.g. [aircrack-ng]([https://github](https://github.com/aircrack-ng/rtl8812au))). 
+To use the RTL8812AU, the driver can be installed from the community repository (e.g. [aircrack-ng](https://github.com/aircrack-ng/rtl8812au)). 
 
 One thing to be noted is that the compilation of the driver requires the kernel headers, which should be installed from the `deb` package locally in orangepi. The directory of the kernel headers is `/opt/linux-headers-*.deb`, where the `*` content might varies in different distribution.
 
-The RTL8812AU driver works well until the USB 3.0 mode is enabled. As a reminder, enabling USB3.0 mode requires a module parameter `rtw_switch_usb_mode=1`. However, the mode switching in orangepi seems to make the driver automatically disconnect from the USB bus. (Tested under official distribution - kernel 5.10 and 6.1)
+The RTL8812AU driver works well until the USB 3.0 mode is enabled. As a reminder, enabling USB3.0 mode requires a module parameter `rtw_switch_usb_mode=1`. However, recent commit [[b44d288](https://github.com/aircrack-ng/rtl8812au/commit/b44d288f423ede0fc7cdbf92d07a7772cd727de4)] seems to fail the usb-switch, which will make the USB device automatically disconnect from the USB bus (Tested under official distribution - kernel 5.10 and 6.1). Therefore, the older commit like [[ca797e1](https://github.com/aircrack-ng/rtl8812au/commit/ca797e114b0640d6aa1a573ea68526a9263df81e)] might be a better choice.
 
 ### MT7612U (MT76x2U) ###
 
