@@ -17,7 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently pursuing the M.S degree of Electronic and Electrical Engineering at Southern University of Science and Technology (SUSTech) supervised under [Rui Wang](http://lasso.eee.sustech.edu.cn/). I received the B.S. degree in Communication Engineering from SUSTech in 2022. My research interests include system implementation and optimization with the join force of optimization and machine learning theory. Currently, I'm working on the optimization in the WiFi system.
+I am currently pursuing the M.S degree of Electronic and Electrical Engineering at Southern University of Science and Technology (SUSTech) supervised under [Rui Wang](http://lasso.eee.sustech.edu.cn/). I received the B.S. degree in Communication Engineering from SUSTech in 2022. 
+My research interests lie in the general area of wireless communication and optimization, especially in machine-learning-enabled communication systems (with implementation). 
+Currently, I'm working on optimization in WiFi systems and edge computing system.
 
 # 📚 Skills #
 
@@ -30,6 +32,11 @@ I am currently pursuing the M.S degree of Electronic and Electrical Engineering 
 + M.S., Southern University of Science and Technology, Electronics and Electrical Engineering. <i style="float: right"> 2022.06 - now </i>
 
 + B.S., Southern University of Science and Technology, Communication Engineering. <i style="float: right"> 2018.09 - 2022.06 </i>
+
+# 📝 Publications 
+
+  + **Qianren Li**, Yuncong Hong, Bojie Lv, and Rui Wang, ``A Dynamic Improvement Framework for Vehicular Task Offloading, (Accepted by **IEEE Wireless Communications and Networking Conference** 2025).
+  + Bojie Lv, **Qianren Li** and Rui Wang, [Sensing-Assisted Adaptive Channel Contention for Mobile Delay-Sensitive Communications](https://arxiv.org/abs/2405.06186), 2024, arXiv:2405.06186, (Accepted by **IEEE Global Communications Conference** 2024).
 
 # 📁 Project Experience #
 
