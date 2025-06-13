@@ -17,9 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently pursuing the M.S degree of Electronic and Electrical Engineering at Southern University of Science and Technology (SUSTech) supervised under [Rui Wang](http://lasso.eee.sustech.edu.cn/). I received the B.S. degree in Communication Engineering from SUSTech in 2022. 
-My research interests lie in the general area of wireless communication and optimization, especially in machine-learning-enabled communication systems (with implementation). 
-Currently, I'm working on optimization in WiFi systems and edge computing system.
+I am currently an M.S. candidate in Electronic and Electrical Engineering at Southern University of Science and Technology (SUSTech), working under the supervision of Professor [Rui Wang](http://lasso.eee.sustech.edu.cn/). I received my B.S. degree in Communication Engineering from SUSTech in 2022. My research focuses on the intersection of wireless communication, optimization and machine learning, particularly the development and implementation of machine-learning-enabled communication systems. My current projects involve optimization in WiFi systems and edge computing environments.
 
 # 📚 Skills #
 
@@ -29,14 +27,14 @@ Currently, I'm working on optimization in WiFi systems and edge computing system
 
 # 📖 Educations #
 
-+ M.S., Southern University of Science and Technology, Electronics and Electrical Engineering. <i style="float: right"> 2022.06 - now </i>
++ M.S., Southern University of Science and Technology, Electronics and Electrical Engineering. <i style="float: right"> 2022.09 - now </i>
 
-+ B.S., Southern University of Science and Technology, Communication Engineering. <i style="float: right"> 2018.09 - 2022.06 </i>
++ B.S., Southern University of Science and Technology, Communication Engineering. <i style="float: right"> 2018.09 - 2022.07 </i>
 
 # 📝 Publications 
-
-  + **Qianren Li**, Yuncong Hong, Bojie Lv, and Rui Wang, ``A Dynamic Improvement Framework for Vehicular Task Offloading, (Accepted by **IEEE Wireless Communications and Networking Conference** 2025).
-  + Bojie Lv, **Qianren Li** and Rui Wang, [Sensing-Assisted Adaptive Channel Contention for Mobile Delay-Sensitive Communications](https://arxiv.org/abs/2405.06186), 2024, arXiv:2405.06186, (Accepted by **IEEE Global Communications Conference** 2024).
+  + **Qianren Li**, Bojie Lv, Yuncong Hong, and Rui Wang, [ReinWiFi: Application-Layer QoS Optimization of WiFi Networks with Reinforcement Learning](https://arxiv.org/abs/2405.03526). arXiv preprint arXiv:2405.03526. (Accepted by **IEEE 101st Vehicular Technology Conference**).
+  + **Qianren Li**, Yuncong Hong, Bojie Lv, and Rui Wang, [A Dynamic Improvement Framework for Vehicular Task Offloading](https://arxiv.org/abs/2501.11333). arXiv preprint arXiv:2501.11333. (Accepted by **IEEE Wireless Communications and Networking Conference**)
+  + Bojie Lv, **Qianren Li** and Rui Wang, [Sensing-Assisted Adaptive Channel Contention for Mobile Delay-Sensitive Communications](https://arxiv.org/abs/2405.06186), 2024, arXiv:2405.06186. (Accepted by **IEEE Global Communications Conference**)
 
 # 📁 Project Experience #
 
@@ -69,11 +67,6 @@ Currently, I'm working on optimization in WiFi systems and edge computing system
     + **Description**: Open Overleaf/ShareLaTex projects in vscode, with full collaboration support.
     + **Role**: Developer, Maintainer
     + **Tools**: Typescript, Node.js
-
-<!-- # 📝 Publications 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1"> -->
 
 # 🎖 Honors and Awards #
 
