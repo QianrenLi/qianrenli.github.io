@@ -6,17 +6,14 @@ main:
   # - title: "Skill"
   #   url: "/#-skills"
 
-  - title: "Educations"
-    url: "/#-educations"
+  # - title: "Educations"
+  #   url: "/#-educations"
 
-  - title: "Publications"
-    url: "/#-publications"
+  # - title: "Publications"
+  #   url: "/#-publications"
 
-  - title: "Project Experience"
-    url: "/#-project-experience"
-
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+  # - title: "Project Experience"
+  #   url: "/#-project-experience"
 
   # - title: "Invited Talks"
   #   url: "/#-invited-talks"
