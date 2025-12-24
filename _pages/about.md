@@ -37,7 +37,8 @@ His current project involves optimization in WiFi systems.
 + B.S., Southern University of Science and Technology, Communication Engineering. <i style="float: right"> 2018.09 - 2022.07 </i>
 
 # Publications #
- + **Qianren Li**, Yuncong Hong, Bojie Lv, and Rui Wang, "A Dynamic Programming Framework for Vehicular Task Offloading with Successive Action Improvement," in **IEEE Transactions on Communications**, doi: 10.1109/TCOMM.2025.3610216.
+ + Tong Zhang, **Qianren Li**, Shuai Wang, Wanli Ni, Jiliang Zhang, Rui Wang, Kai-Kit Wong, Chan-Byoung Chae, "Indoor Fluid Antenna Systems Enabled by Layout-Specific Modeling and Group Relative Policy Optimization," **IEEE Transactions on Wireless Communications**, doi: 10.1109/TWC.2025.3646155.
+ + **Qianren Li**, Yuncong Hong, Bojie Lv, and Rui Wang, "A Dynamic Programming Framework for Vehicular Task Offloading with Successive Action Improvement," **IEEE Transactions on Communications**, doi: 10.1109/TCOMM.2025.3610216.
   + **Qianren Li**, Bojie Lv, Yuncong Hong, and Rui Wang,, "[ReinWiFi: Application-Layer QoS Optimization of WiFi Networks with Reinforcement Learning](https://arxiv.org/abs/2405.03526)," 2025 IEEE 101st Vehicular Technology Conference (VTC2025-Spring), Oslo, Norway, 2025, pp. 1-6, doi: 10.1109/VTC2025-Spring65109.2025.11174355.
   + **Qianren Li**, Yuncong Hong, Bojie Lv, and Rui Wang, "[A Dynamic Improvement Framework for Vehicular Task Offloading](https://arxiv.org/abs/2501.11333)". arXiv preprint arXiv:2501.11333. (Accepted by **IEEE Wireless Communications and Networking Conference**)
   + Bojie Lv, **Qianren Li** and Rui Wang, "[Sensing-Assisted Adaptive Channel Contention for Mobile Delay-Sensitive Communications](https://arxiv.org/abs/2405.06186)", 2024, arXiv:2405.06186. (Accepted by **IEEE Global Communications Conference**)
