@@ -48,7 +48,7 @@ His current project involves optimization in WiFi systems.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/ReinWiFi/system.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-## [Reinwifi](https://github.com/QianrenLi/ReinWiFi)  <i style="float: right; font-size: 14px; font-weight: normal">2023.06 - now</i> ##
+## [Reinwifi](https://github.com/QianrenLi/ReinWiFi)  <i style="float: right; font-size: 14px; font-weight: normal">2023.06 - 2024.05</i> ##
 
 + **Description**: Extracting information from the media access control (MAC) layer in real time is either infeasible or hampers transmission efficiency. To address this issue, a reinforcement-learning-based framework for application-layer quality-of-service (QoS) optimization of WiFi networks was proposed.
 + **Role**: Project Leader, Developer
