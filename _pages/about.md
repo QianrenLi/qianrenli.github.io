@@ -18,11 +18,9 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 Qianren Li (李乾任) received his Master and Bachelor degree from Southern University of Science and Technology (SUSTech) under the supervision of Professor [Rui Wang](http://lasso.eee.sustech.edu.cn/).
-He is currently a research assistant of the LASSO lab in SUSTech.
+He is currently a research assistant of the S2MC group under the supervision of Professor [Weitao Xu](https://www.weitaoxu.com/) in City University of Hong Kong (CityU).
 
 His research focuses on the intersection of wireless communication, optimization and machine learning, particularly the development and implementation of machine-learning-enabled communication systems. 
-
-His current project involves optimization in WiFi systems.
 
 # Skills #
 
